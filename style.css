@@ -28,6 +28,8 @@ html,body{
     width: 160px;
 }
 #nav h4{
+    font-size: 17px;
+    font-weight: 400;
     text-transform: uppercase;
 }
 video{
@@ -79,4 +81,6 @@ video{
 .page1-text-p-tag{
     text-align: center;
     margin-left: 430px;
+    margin-top: 15px;
+    font-weight: 300;
 }
