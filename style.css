@@ -81,7 +81,7 @@ video{
     position: relative;
 }
 #page1 .page1-text h1::before{
-    content: 'Score Big, Play Bigger.';
+    content: 'Score Big, Play Bigger,';
     position: absolute;
     color: #000;
     top: -5px;
@@ -94,6 +94,7 @@ video{
     font-weight: 500;
     margin-right: 17%;
     color: #1dcb59;
+    -webkit-text-stroke: 2px #fff;
 }
 .page1-text-h3{
     display: flex;
@@ -248,4 +249,22 @@ video{
 }
 .card:hover {
     transform: rotate3d(-1,1,0,20deg);
+}
+
+#green-div{
+    height: vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(to right top, #ecf612, #d7f31c, #c2ef26, #adeb2f, #98e738, #8ce739, #7fe83a, #71e83c, #67ee36, #5bf330, #4cf92a, #35ff23);
+}
+#green-div h4{
+    width: 50%;
+    font-size: 23px;
+    text-transform: uppercase;
+}
+#green-div img{
+    height: 100%;
+    object-fit: cover;
+    width: 20%;
 }
